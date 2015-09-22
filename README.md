@@ -10,3 +10,5 @@ Recently, I've stumbled upon an interview question where you need to write a cod
 > The function should be optimized to run on dual-core ARM-based
 > processors, and an infinity amount of memory.
 
+http://stackoverflow.com/questions/32706934/optimize-c-code-for-arm-based-devices
+
