@@ -8,24 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		47DF5BAE1BB0E01E000E71C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF5BAD1BB0E01E000E71C1 /* main.m */; };
-		47DF5BB11BB0E01E000E71C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF5BB01BB0E01E000E71C1 /* AppDelegate.m */; };
-		47DF5BB41BB0E01E000E71C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF5BB31BB0E01E000E71C1 /* ViewController.m */; };
-		47DF5BB71BB0E01E000E71C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DF5BB51BB0E01E000E71C1 /* Main.storyboard */; };
 		47DF5BB91BB0E01E000E71C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DF5BB81BB0E01E000E71C1 /* Assets.xcassets */; };
-		47DF5BBC1BB0E01E000E71C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DF5BBA1BB0E01E000E71C1 /* LaunchScreen.storyboard */; };
+		47DF5BC51BB0E2DA000E71C1 /* mostFrequentChar.c in Sources */ = {isa = PBXBuildFile; fileRef = 47DF5BC31BB0E2DA000E71C1 /* mostFrequentChar.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47DF5BA91BB0E01E000E71C1 /* MostFrequentChar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostFrequentChar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DF5BAD1BB0E01E000E71C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47DF5BAF1BB0E01E000E71C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		47DF5BB01BB0E01E000E71C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47DF5BB21BB0E01E000E71C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		47DF5BB31BB0E01E000E71C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		47DF5BB61BB0E01E000E71C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47DF5BB81BB0E01E000E71C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47DF5BBB1BB0E01E000E71C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47DF5BBD1BB0E01E000E71C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DF5BC31BB0E2DA000E71C1 /* mostFrequentChar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mostFrequentChar.c; sourceTree = "<group>"; };
+		47DF5BC41BB0E2DA000E71C1 /* mostFrequentChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mostFrequentChar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +51,9 @@
 		47DF5BAB1BB0E01E000E71C1 /* MostFrequentChar */ = {
 			isa = PBXGroup;
 			children = (
-				47DF5BAF1BB0E01E000E71C1 /* AppDelegate.h */,
-				47DF5BB01BB0E01E000E71C1 /* AppDelegate.m */,
-				47DF5BB21BB0E01E000E71C1 /* ViewController.h */,
-				47DF5BB31BB0E01E000E71C1 /* ViewController.m */,
-				47DF5BB51BB0E01E000E71C1 /* Main.storyboard */,
-				47DF5BB81BB0E01E000E71C1 /* Assets.xcassets */,
-				47DF5BBA1BB0E01E000E71C1 /* LaunchScreen.storyboard */,
-				47DF5BBD1BB0E01E000E71C1 /* Info.plist */,
+				47DF5BC31BB0E2DA000E71C1 /* mostFrequentChar.c */,
+				47DF5BC41BB0E2DA000E71C1 /* mostFrequentChar.h */,
+				47DF5BAD1BB0E01E000E71C1 /* main.m */,
 				47DF5BAC1BB0E01E000E71C1 /* Supporting Files */,
 			);
 			path = MostFrequentChar;
@@ -74,7 +62,8 @@
 		47DF5BAC1BB0E01E000E71C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				47DF5BAD1BB0E01E000E71C1 /* main.m */,
+				47DF5BB81BB0E01E000E71C1 /* Assets.xcassets */,
+				47DF5BBD1BB0E01E000E71C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,9 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DF5BBC1BB0E01E000E71C1 /* LaunchScreen.storyboard in Resources */,
 				47DF5BB91BB0E01E000E71C1 /* Assets.xcassets in Resources */,
-				47DF5BB71BB0E01E000E71C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +136,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DF5BB41BB0E01E000E71C1 /* ViewController.m in Sources */,
-				47DF5BB11BB0E01E000E71C1 /* AppDelegate.m in Sources */,
+				47DF5BC51BB0E2DA000E71C1 /* mostFrequentChar.c in Sources */,
 				47DF5BAE1BB0E01E000E71C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		47DF5BB51BB0E01E000E71C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47DF5BB61BB0E01E000E71C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		47DF5BBA1BB0E01E000E71C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47DF5BBB1BB0E01E000E71C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		47DF5BBE1BB0E01E000E71C1 /* Debug */ = {
@@ -264,6 +231,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MostFrequentChar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tikhop.MostFrequentChar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +243,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MostFrequentChar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tikhop.MostFrequentChar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +269,7 @@
 				47DF5BC21BB0E01E000E71C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
